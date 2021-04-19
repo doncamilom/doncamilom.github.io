@@ -8,7 +8,6 @@ $$
 
 If we are to calculate this with python, then we'd do the following:
 ```python
-
 def calc_Hhat(r):
 """ r is the vector containing the positions of the electrons"""
     H = 0
@@ -16,7 +15,6 @@ def calc_Hhat(r):
         for j in range(N):
             if i != j:
                 H += 1./abs(r[i]-r[j])
-                  
     return H/2.
 ```
 
