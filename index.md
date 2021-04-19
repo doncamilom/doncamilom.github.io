@@ -1,7 +1,9 @@
-Hello and welcome to this blog. Edit the `index.md` file to change this content. All pages on the blog, including this one, use [Markdown](https://guides.github.com/features/mastering-markdown/). You can include images:
+### Hello, and welcome to this blog!
 
-![Image of fast.ai logo](images/logo.png)
+Here, you will find blog posts about quantum chemistry, data science, mathematics, programming, and more! Not necessarily separated by topics, though.
 
-## This is a title
+![Frog image, taken from www.pexels.com](images/pexels-pixabay-45863.jpg)
 
-And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file. 
+<br>
+Note that I'm a chemist, so my projects will most probably be pointed towards that direction (which I hope you'll find cool!)
+<br>
