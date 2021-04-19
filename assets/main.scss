@@ -12,9 +12,28 @@
         margin-right: auto;
 }
 
-.feed-subscribe .svg-icon {
+.feed-subscribe {
   padding: 10px 10px 5px 0
 }
+
+.svg-icon {
+  width: 21px;
+  height: 16px;
+}
+
+.footer-col {
+  margin-bottom: $spacing-unit / 2;
+}
+
+.footer-col-1 {
+  width: 140px;
+}
+
+.footer-col-2 {
+  width: 180px;
+  margin-left: 20px;
+}
+
 
 .post figcaption {
   text-align: center;
