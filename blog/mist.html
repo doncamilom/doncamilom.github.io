@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiST: Chemical Reasoning in LLMs</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="../assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <div class="main-content">
+            <article class="about  active" data-page="idk">
+
+                <header>
+                <h2 class="h2 article-title">MiST: Understanding the Role of Mid-Stage Scientific Training in Developing Chemical Reasoning Models</h2>
+                </header>
+
+                <br>
+                <p style="color: white; margin-bottom: 20px;">
+                  RL-based fine-tuning for chemical reasoning only succeeds when the base model already assigns non-negligible probability to correct answers &mdash; a property we call <b>"latent solvability."</b>
+                  <br><br>
+                  Direct application of RL fails in chemistry because models rarely generate correct chemical outputs (like valid SMILES strings) in their candidate distributions.
+                </p>
+
+                <p style="color: white; margin-bottom: 20px;">
+                  We identify <b>two necessary conditions</b> for successful RL-based chemical reasoning:
+                  <br>
+                  1. <b>Symbolic competence</b> &mdash; the ability to handle valid chemical strings (SMILES, IUPAC, CIF)
+                  <br>
+                  2. <b>Latent domain knowledge</b> &mdash; ensuring correct answers exist in the model's prior distribution
+                </p>
+
+                <p style="color: white; margin-bottom: 20px;">
+                  MiST includes SMILES-aware data mixing, continued pre-training on 2.9B tokens, and supervised fine-tuning on chain-of-thought reasoning data.
+                  <br><br>
+                  The results are significant: latent-solvability scores improve by up to <b>1.8&times;</b> on 3B and 7B models, organic reaction naming accuracy jumps from <b>10.9% to 63.9%</b>, and inorganic material generation improves from <b>40.6% to 67.4%</b>.
+                </p>
+
+                <p style="color: white; margin-bottom: 40px;">
+                  <a href="https://arxiv.org/abs/2512.21231" style="color:aquamarine" target="_blank">Read the paper on arXiv &rarr;</a>
+                </p>
+
+            </article>
+        </div>
+    </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="../assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>
